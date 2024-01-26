@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demat Accounts</title>
      <nav>
-    <div class="logo">Credit-Card Store</div>
+    <div class="logo"> Demat Account Store </div>
     <div class="menu">
     <ul>
     <li><a href="index.html">Credit Cards</a></li>
@@ -35,43 +35,65 @@
   }
 }
        body {
-        background-image: url(pexels-anton-atanasov-735812.jpg);
+    background-color: #666;
        }
        nav {
-        font-family: cursive;
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       
-       color: black;
-       }
-       ul {
-        display: flex;
-       }
-       li {
-        list-style: none;
-        margin: 1rem;
-       }
-       a {
-        text-decoration: none;
-        color: #665858;
-        position: relative;
-       }
-       a ::after{
-        content:'';
-        width: 0%;
-        height: 3px;
-        position: absolute;
-        bottom: -5px;
-        left: 50%;
-        transform: translate(-50%);
-        background:#fff;
-        transition: width 0.3s;
-       }
-       a:hover::after{
-        width: 50%;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(118, 189, 170);
+}
 
-       }
+ul {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  list-style: none;
+  margin: 1rem 1rem 0 0; /* Adjust margins for wrapping */
+}
+
+a {
+  text-decoration: none;
+  color:rgb(11, 234, 234);
+  position: relative;
+}
+
+a::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%);
+  background: #fff;
+  transition: width 0.3s;
+}
+
+a:hover::after {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile view */
+  nav {
+    padding: 1rem 0; /* Add padding for smaller screens */
+  }
+
+  ul {
+    display: block; /* Stack links vertically */
+    text-align: center; /* Center links on mobile */
+  }
+
+  li {
+    margin: 1rem 0; /* Adjust margins for vertical stacking */
+  }
+}
+
         body {
             font-family: sans-serif;
             margin: 0;
@@ -99,30 +121,67 @@
         .product-info {
             text-align: center;
         }
+
+        .footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  color: #666;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer .col-md-4 {
+    text-align: center;
+  }
+  .footer .row {
+    flex-direction: column;
+  }
+}
+
+
     </style>
         
     <div class="logo">
 
     </div>
 </head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CIBIL Score Checker</title>
 
 <body>
-    <h1>Check Your CIBIL Score</h1>
-    <form action="process.php" method="post" {
-        return this.;
-    }>
-        <label for="pan_card">PAN Card Number:</label>
-        <input type="text" name="pan_card" id="pan_card" required>
-        <br>
-        <label for="date_of_birth">Date of Birth:</label>
-        <input type="date" name="date_of_birth" id="date_of_birth" required>
-        <br>
-        <button input type="submit">Check Score</button>
-    </form>
-
+   
     <h1>Open A Demat Account Here!</h1>
 <h4> 
     Demat Account
@@ -190,7 +249,7 @@
         <div class="product-info">
             <h3>AU Swipe Card</h3>
             <p>discount on shopping</p>
-            <a href="https://leads.banksathi.com/?h=MUV1ZEplcURIZXh6eEJEM29NTk1JUT09" target="_blank">Npply Now</a>
+            <a href="https://leads.banksathi.com/?h=MUV1ZEplcURIZXh6eEJEM29NTk1JUT09" target="_blank">Apply Now</a>
         </div>
     </div>
     
@@ -202,11 +261,35 @@
             <a href="https://leads.banksathi.com/?h=RisyZ0RXaFMzdUdmN2N0RGRwbUt5Zz09" target="_blank">Open Now</a>
         </div>
     </div>
-    <p>
-        Copyright &copy;
-        <span id="2023"> All Rights Are Reserved By</span>
-        sha_ul_shaik
-    </p>
+    
 
     </body>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Us</h4>
+              <p>Loan cards can be powerful tools for acquiring new customers and boosting your loan portfolio. But simply offering a card doesn't guarantee success. To truly master the art of selling loans through cards, you need a strategic approach that focuses on attracting, engaging, and converting potential borrowers. </p>
+            </div>
+            <div class="col-md-4">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="https://wa.me/9959975439">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>Email: loanscards4@gmail.com</p>
+              <p>Phone: +91 9959975439</p>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>&copy; 2023 loanscards.online. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
 </html>
